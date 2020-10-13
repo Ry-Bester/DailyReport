@@ -12,13 +12,14 @@ namespace dailyreport_drill
         {
             Console.WriteLine("The Tech Academy");
             Console.WriteLine("Student Daily Report");
+            Console.WriteLine("What is your name?");
+            string name =Console.ReadLine();
             Console.WriteLine(" What course are you on?");
             string course = Console.ReadLine();
             Console.WriteLine("What page number?");
-            string pageNumber = Console.ReadLine();
-            int pgnum = Convert.ToInt32(pageNumber);
+            int pgnum = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Do you need help with anything? Please answer 'True' or 'False'. ");
-            Console.ReadLine();
+            string help = Console.ReadLine();
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give Specifics");
             string posEx = Console.ReadLine();
             Console.WriteLine("Is there any other feedback you'd like to provide? Please be Specific");
